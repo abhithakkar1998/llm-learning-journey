@@ -15,6 +15,22 @@ The goal is to build practical understanding through small, day-wise experiments
   - **Nucleus sampling (top-p)**
 - Compared outputs of the same query under different decoding parameters.
 
+### Day 2 – Tokenization, Embeddings & PCA Visualization
+- Learned how **tokenization** works in LLMs:
+  - BERT (WordPiece) vs GPT-2 (Byte-Pair Encoding).
+  - Key tokenizer outputs: `input_ids`, `attention_mask`, and `token_type_ids`.
+- Extracted **embeddings** using:
+  - `last_hidden_state` for token-level vectors.
+  - `pooler_output` for sentence-level representation.
+  - Explored **mean pooling** vs **CLS pooling** for different tasks.
+- Visualized embeddings using **PCA (Principal Component Analysis)**:
+  - Reduced 768-dimensional embeddings to 2D.
+  - Observed how semantically related sentences cluster together.
+- Key modules:  
+  - `transformers`: `AutoTokenizer`, `AutoModel`, `pipeline()`  
+  - `torch`: for inference & reproducibility (`torch.manual_seed`)  
+  - `sklearn.decomposition.PCA`: dimensionality reduction
+
 ---
 
 ## 🔧 Tech Stack
@@ -22,22 +38,26 @@ The goal is to build practical understanding through small, day-wise experiments
 - Hugging Face Transformers
 - PyTorch
 - Jupyter/Colab
-
+- scikit-learn (PCA, clustering)
+- Matplotlib / Seaborn (visualization)
 ---
 
 ## 🚀 Roadmap
-- [ ] Day 2 – Experiment with max_length vs max_new_tokens  
-- [ ] Day 3 – Fine-tuning a small model on custom data  
-- [ ] Day 4 – Building a simple Retrieval-Augmented Generation (RAG) pipeline  
-- [ ] Day 5 – Exploring multi-agent frameworks  
-- [ ] Deployment experiments with Gradio/Flask  
+- [x] **Day 1:** Introduction to Hugging Face pipelines & decoding strategies  
+- [x] **Day 2:** Tokenization, embeddings extraction & visualization  
+- [ ] **Day 3:** Semantic similarity & sentence clustering using embeddings  
+- [ ] **Day 4:** Building a simple semantic search system  
+- [ ] **Day 5:** Introduction to fine-tuning (lightweight methods like LoRA/PEFT)  
+- [ ] **Day 6:** Retrieval-Augmented Generation (RAG) basics  
+- [ ] **Day 7:** Deploy a mini-project (Gradio web app or Flask API) using learned concepts
 
 ---
 
 ## 📖 References
 - [Hugging Face Transformers Docs](https://huggingface.co/docs/transformers)  
 - [Text Generation Strategies](https://huggingface.co/docs/transformers/main/en/generation_strategies)  
-
+- [BERT Paper](https://arxiv.org/abs/1810.04805)
+- 
 ---
 
 ## 🤝 Contributing
