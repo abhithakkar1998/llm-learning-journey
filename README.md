@@ -41,6 +41,13 @@ The goal is to build practical understanding through small, day-wise experiments
 - Implemented a **mini semantic search demo**: retrieved the most similar sentence to a query.
 - Learned when to use cosine similarity, clustering, and dimensionality reduction in real-world tasks.
 
+## Day 4: Building a Simple Semantic Search System
+- Built a **semantic search engine** using Wikipedia topics on AI/ML/Data Science.
+- Converted each topic's summary into **sentence embeddings** using a Transformer model.
+- Implemented a **search function** to retrieve most relevant topics based on cosine similarity.
+- Added **visualization** (bar chart) to interpret results.
+- Created a **minimal Gradio UI** for interactive semantic search.
+
 ---
 
 ## 🔧 Tech Stack
@@ -56,7 +63,7 @@ The goal is to build practical understanding through small, day-wise experiments
 - [x] **Day 1:** Introduction to Hugging Face pipelines & decoding strategies  
 - [x] **Day 2:** Tokenization, embeddings extraction & visualization  
 - [x] **Day 3:** Semantic similarity & sentence clustering using embeddings  
-- [ ] **Day 4:** Building a simple semantic search system  
+- [x] **Day 4:** Building a simple semantic search system  
 - [ ] **Day 5:** Introduction to fine-tuning (lightweight methods like LoRA/PEFT)  
 - [ ] **Day 6:** Retrieval-Augmented Generation (RAG) basics  
 - [ ] **Day 7:** Deploy a mini-project (Gradio web app or Flask API) using learned concepts
@@ -67,6 +74,7 @@ The goal is to build practical understanding through small, day-wise experiments
 - [Hugging Face Transformers Docs](https://huggingface.co/docs/transformers)  
 - [Text Generation Strategies](https://huggingface.co/docs/transformers/main/en/generation_strategies)  
 - [BERT Paper](https://arxiv.org/abs/1810.04805)
+- [Gradio](https://www.gradio.app/guides/quickstart)
   
 ---
 
