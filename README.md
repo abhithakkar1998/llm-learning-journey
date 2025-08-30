@@ -57,6 +57,16 @@ The goal is to build practical understanding through small, day-wise experiments
 - Evaluated the fine-tuned model on unseen text samples to verify performance.
 - Achieved near full fine-tuning performance while training only ~1–2% of parameters.
 
+## Day 6 – Retrieval-Augmented Generation (RAG) Basics
+- Built a **RAG pipeline** to answer questions using a Wikipedia-based corpus on AI/ML/Data Science.
+- Steps covered:
+  - Created a **Wikipedia knowledge base** with topics and summaries.
+  - Converted the summaries into **embeddings** using a Transformer model.
+  - Implemented **cosine similarity-based retrieval** to fetch top-k relevant documents.
+  - Integrated retrieval results into a **Flan-T5 text generation pipeline**.
+  - Added **visualizations** (heatmap & PCA plots) to understand document similarity.
+  - Developed a **minimal Gradio UI** to interactively query the RAG system.
+
 ---
 
 ## 🔧 Tech Stack
@@ -74,7 +84,7 @@ The goal is to build practical understanding through small, day-wise experiments
 - [x] **Day 3:** Semantic similarity & sentence clustering using embeddings  
 - [x] **Day 4:** Building a simple semantic search system  
 - [x] **Day 5:** Introduction to fine-tuning (lightweight methods like LoRA/PEFT)  
-- [ ] **Day 6:** Retrieval-Augmented Generation (RAG) basics  
+- [x] **Day 6:** Retrieval-Augmented Generation (RAG) basics  
 - [ ] **Day 7:** Deploy a mini-project (Gradio web app or Flask API) using learned concepts
 
 ---
