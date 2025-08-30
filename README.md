@@ -65,7 +65,6 @@ The goal is to build practical understanding through small, day-wise experiments
   - Implemented **cosine similarity-based retrieval** to fetch top-k relevant documents.
   - Integrated retrieval results into a **Flan-T5 text generation pipeline**.
   - Added **visualizations** (heatmap & PCA plots) to understand document similarity.
-  - Developed a **minimal Gradio UI** to interactively query the RAG system.
 
 ---
 
