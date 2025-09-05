@@ -8,9 +8,6 @@ We've built a complete production-ready RAG (Retrieval-Augmented Generation) Pip
 
 ### **Prerequisites**
 ```bash
-# Navigate to Day7 directory
-cd Day7
-
 # Install dependencies
 pip install -r requirements.txt
 ```
@@ -65,7 +62,7 @@ python src/main.py --host 0.0.0.0 --port 8080 --reload
 ## 🏗️ Architecture & Directory Structure
 
 ```
-Day7/
+Day7_RAG_FastAPI_Pipeline/
 ├── src/                    # Main package
 │   ├── __init__.py        # Package initialization
 │   ├── utils.py           # Core utilities (device detection, normalization)
