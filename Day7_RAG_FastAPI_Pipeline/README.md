@@ -1,4 +1,4 @@
-# Day 7: Production RAG Pipeline with FastAPI
+# Day 7: RAG Pipeline with FastAPI
 
 ## 🎯 Project Overview
 
